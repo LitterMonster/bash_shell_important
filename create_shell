@@ -1,0 +1,26 @@
+#!/bin/bash
+# create bash shell automatically
+# In this file, I want to create bash shell automatically
+# and it is executable, but I encounted a few questions:
+# such as: 
+#    1.( for file in $* ) and (for file in "$@") and (for file in $@) 
+#    are all useful. I could not use (for file in "$*"), because 
+#    the '$*' is a string not the parameter array! 
+for file in $*
+do
+    if [ ! -e $file ]
+    then
+        touch $file
+        chmod u+x $file
+        echo "#!/bin/bash" >> $file
+        echo "# " >> $file
+        echo "create success"
+    fi
+done
+if [ $# \> 1 ]
+then
+    echo "$# shell files are created!"
+else
+    echo "$# shell is created!"
+fi
+
