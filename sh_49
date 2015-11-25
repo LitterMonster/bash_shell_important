@@ -1,0 +1,10 @@
+#!/bin/bash
+# timing the data entry
+
+if read -t 5 -p "Please enter your name and you just have 5 seconds to enter:" name
+then
+    echo "Hello $name.wlcome to my script"
+else
+    echo 
+    echo "Sorry. too slow"
+fi

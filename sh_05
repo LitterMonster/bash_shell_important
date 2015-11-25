@@ -1,0 +1,16 @@
+#!/bin/bash
+# check file write and read function is whether available
+logfile=log
+touch $logfile
+
+if [ -w $logfile -a -r $logfile ]
+then
+    echo "$logfile can write and read..."
+    if [ -x $logfile ]
+    then
+        echo "$logfile can not execute too"
+    else
+        chmod u+x $logfile
+        echo "Now $logfile is executable"
+    fi
+fi

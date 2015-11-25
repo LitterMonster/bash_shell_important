@@ -1,0 +1,6 @@
+#!/bin/bash
+# testing the read -p option
+read -p "Please enter your age:" age
+nowyear=`date +%Y`
+year=$[$nowyear-$age]
+echo "You were born in $year year"

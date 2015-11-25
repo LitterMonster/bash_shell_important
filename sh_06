@@ -1,0 +1,8 @@
+#!/bin/bash
+# check executable
+if [ -x sh_05 ]
+then
+    echo "sh_05 can execute"
+else
+    echo "sh_05 can not execute"
+fi

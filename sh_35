@@ -1,0 +1,6 @@
+#!/bin/bash
+# testing "$*" 
+for i in "$@"
+do
+    echo "$i"
+done

@@ -1,0 +1,22 @@
+#!/bin/bash
+# string equality
+str1="Hello"
+str2='Hello'
+if test $str1 = $str2;then
+    echo "$str1 = $str2"
+else
+    echo "$str1 != $str2"
+fi
+
+if test -n $str1;then
+    echo "$str1's length is not 0"
+else
+    echo "$str1's length is 0"
+fi
+
+if test -z $var3
+then
+    echo "\$var3's length is zero";
+else
+    echo "\$var3's length is not zero"
+fi

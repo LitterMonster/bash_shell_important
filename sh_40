@@ -1,0 +1,33 @@
+#!/bin/bash
+# extracting command line options and values
+
+while [ -n "$1" ]
+do
+    case "$1" in
+        -a)
+            echo "Find -a option"
+            ;;
+        -b)
+            param=$2
+            echo "Find -b option with parameter value $param."
+            shift 
+            ;;
+        -c)
+            echo "Find -c option"
+            ;;
+        --)
+            shift
+            break
+            ;;
+        *)
+            echo "Not find $1 option"
+            ;;
+    esac
+    shift
+done
+
+count=1
+for param in $*
+do
+    echo "parameter is $param"
+done

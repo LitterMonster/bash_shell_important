@@ -1,0 +1,8 @@
+#!/bin/bash
+# reading values from a file
+state=state
+IFS=:
+for filename in `cat /etc/passwd`
+do
+    echo $filename
+done

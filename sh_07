@@ -1,0 +1,10 @@
+#!/bin/bash
+# check file's owner
+
+if [ -G /etc/passwd ]
+then
+    echo "/etc/passwd owns to you"
+else
+    echo "/etc/passwd does not owns to you"
+fi
+

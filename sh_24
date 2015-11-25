@@ -1,0 +1,6 @@
+#!/bin/bash
+# test parameters
+for i in "$@"
+do
+    echo "Hello World" >> $i
+done

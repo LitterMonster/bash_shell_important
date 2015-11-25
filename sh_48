@@ -1,0 +1,10 @@
+#!/bin/bash
+# testing the $REPLY 
+
+read -p "Please input randomly:"
+count=1
+for var in $REPLY
+do
+    echo "var $count is $var"
+    count=$[$count+1]
+done

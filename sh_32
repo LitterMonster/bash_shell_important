@@ -1,0 +1,14 @@
+#!/bin/bash
+# using basename with the $0 parameter
+
+#name=`basename $0`
+
+#echo The Command entered is: $name
+echo "$1" 
+echo "\$# is $#"
+if [ -n "$1" ]
+then
+    echo "\$1 is not null"
+else
+    echo "\$1 is null"
+fi

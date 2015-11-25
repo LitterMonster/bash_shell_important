@@ -1,0 +1,6 @@
+#!/bin/bash
+# testing the last parameter
+
+lastname=${!#}
+echo "The last file name is $lastname"
+echo "The $# file name is ${!#}"

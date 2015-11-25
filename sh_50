@@ -1,0 +1,16 @@
+#!/bin/bash
+# getting just one character of input
+
+read -n3  -p "Do you want to continue [Y/N]?" answer
+case $answer in 
+    y|Y|yes|Yes|YES)
+        echo
+        echo "Fine,continue on..."
+        ;;
+    n|N|No|NO|no)
+        echo
+        echo "Ok, goodbye!"
+        exit
+        ;;
+esac
+echo "This is the end of the script!"

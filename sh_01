@@ -1,0 +1,9 @@
+#!/bin/bash
+var1=10
+var2=11
+if [ $var1 -eq $var2 ]
+then
+    echo "HelloWorld"
+else
+    echo "Wrong!"
+fi

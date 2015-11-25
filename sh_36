@@ -1,0 +1,6 @@
+#!/bin/bash
+# demonstrating the shift command
+
+echo "The orginal patameters: $*"
+shift 2
+echo "Here's the new first parameter:$1"

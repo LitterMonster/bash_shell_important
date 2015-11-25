@@ -1,0 +1,8 @@
+#!/bin/bash
+# testing $*
+list="$*"
+for i in $list
+do
+    echo $i >> file$i
+done
+

@@ -1,0 +1,10 @@
+#!/bin/bash
+# go on testing $* and $@
+
+count=1
+for i in "$@"
+do
+    echo  $i
+    count=$[$count+1]
+    echo "count is $count"
+done

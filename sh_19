@@ -1,0 +1,12 @@
+#!/bin/bash
+# testing a multicommand while loop
+
+varl1=10
+
+while echo $varl1
+    [ $varl1 -ge 0 ]
+do
+    echo "This is inside the loop"
+    varl1=$[$varl1-1]
+done
+
