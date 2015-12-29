@@ -1,0 +1,12 @@
+#!/bin/bash
+# demonstrating the local keyword
+
+function func1 {
+    local temp=10
+    result=$[ $temp * 2 ]
+}
+result=6
+func1
+echo "temp is $temp"
+echo "The result is $result" 
+

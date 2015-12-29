@@ -1,0 +1,11 @@
+#!/bin/bash
+# testing the exit statu of a functino
+
+func1() {
+    ls -l badfile
+    echo "Yes"
+}
+
+echo "Brgin------"
+func1
+echo "exit code is $?"

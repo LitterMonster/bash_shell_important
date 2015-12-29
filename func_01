@@ -1,0 +1,18 @@
+#!/bin/bash
+# testing the first bash function
+
+
+function func1 {
+    echo "This is an example of function"
+}
+
+function func1 {
+    echo "This is a example of function"
+}
+count=1
+while [ $count -le 5 ]
+do
+    func1
+    count=$[$count + 1]
+done
+echo "Now this is the end of the script"
