@@ -1,0 +1,8 @@
+#!/bin/bash
+# testing lsof with file descriptors
+
+exec 3> test8file1
+exec 6> test8file2
+exec 7< state
+
+lsof -a -p $$ -d0,1,2,3,6,7

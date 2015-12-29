@@ -1,0 +1,15 @@
+#!/bin/bash
+# using a temporary directory
+
+tempdir=`mktemp -d dir.XXXXXX`
+cd $tempdir
+
+tempfile1=`mktemp temp.XXXXXX`
+tempfile2=`mktemp temp.XXXXXX`
+
+exec 7>$tempfile1
+exec 8>$tempfile2
+
+echo "This is tempfile 1" >&7 $tempfile1
+echo "This is tempfile 2" >&8 $tempfile2
+

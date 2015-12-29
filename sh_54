@@ -1,0 +1,4 @@
+#!/bin/bash
+# testing use super user password
+
+su root

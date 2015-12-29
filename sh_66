@@ -1,0 +1,24 @@
+#!/bin/bash
+# creating new function
+
+function zhangtao
+{
+    echo "Here is zhangtao function"
+    echo "#$\# is $#"
+}
+
+monster()
+{
+    echo "Here is monster function" 
+    echo "#$\# is $#"
+}
+
+function litter()
+{
+    echo "Here is litter function" 
+    echo "#$\# is $#"
+}
+
+zhangtao long
+monster long long
+litter long long
