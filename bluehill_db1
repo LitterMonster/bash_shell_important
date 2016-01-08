@@ -1,0 +1,18 @@
+#!/bin/bash
+#Author:zhangtao
+#Date & Time: 2016-01-01-22:41:17
+#Description:I use this script to operate bluehill database
+
+read -p "Enter staff id you want to find:" id
+MSYQL=`which mysql`
+statement="select * from tblEmployee where EmployeeID = $id"
+$MSYQL bluehill_db -u root << EOF
+$statement
+EOF
+
+if [ $? -eq 0 ]
+then
+    echo Data Successfully select!
+else
+    echo Problem selecting data!
+fi

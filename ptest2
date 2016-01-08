@@ -1,0 +1,6 @@
+#!/bin/bash
+#Author:zhangtao
+#Date & Time: 2016-01-01-22:11:22
+#Description: send a command to the PostgreSQL server
+PSQL=`which psql`
+$PSQL test -c 'select * from employees'

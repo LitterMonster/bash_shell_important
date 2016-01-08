@@ -1,0 +1,13 @@
+#!/bin/bash
+#Author:zhangtao
+#Date & Time: 2015-12-31-21:24:45
+#Description:I just want to test source 
+
+if [ -e test1 ]
+then
+    read -p "Enter a value:" value
+    source ./test1 
+    add $value
+    echo Done
+fi
+

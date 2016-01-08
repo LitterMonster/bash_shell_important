@@ -1,0 +1,11 @@
+#!/bin/bash
+#Author:zhangtao
+#Date & Time: 2016-01-01-23:06:22
+#Description:redirecting SQL output to a database
+
+MYSQL=`which mysql`
+dbs=`$MYSQL bluehill_db -u root -Bse 'show tables'`
+for db in $dbs
+do
+    echo $db
+done

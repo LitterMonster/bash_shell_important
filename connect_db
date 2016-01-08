@@ -1,0 +1,9 @@
+#!/bin/bash
+#Author:zhangtao
+#Date & Time: 2016-01-01-21:56:11
+#Description:This script is to connect mysql or postgres
+
+MYSQL=`which mysql`
+PSQL=`which psql`
+#$PSQL test
+$MYSQL -u root

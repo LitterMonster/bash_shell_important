@@ -1,0 +1,11 @@
+#!/bin/bash
+# return hiddle file
+
+count=1
+hiddle_file=`ls -a | grep ^[.]`
+echo "Here is hiddle file"
+for file in "$hiddle_file"
+do
+    echo "#${count}File: $file"
+    count=$[$count+1]
+done

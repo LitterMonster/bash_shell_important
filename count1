@@ -1,0 +1,23 @@
+#!/bin/bash
+# count directories lines
+path=$*
+dir=0
+file=0
+other=0
+for File in $path 
+do
+    if [ -d "$File" ]
+    then
+        dir=$[$dir+1]
+        echo $File
+    elif [ -f "$File" ]
+    then
+        file=$[$file+1]
+        echo $File
+    else
+    other=$[$other+1]
+    echo $File
+    fi
+done
+echo "dir is $dir, File is $file, Other is $other"
+        

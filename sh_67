@@ -1,0 +1,29 @@
+#!/bin/bash
+#Author:zhangtao
+#Date & Time: 2016-01-01-23:33:32
+#Description: testing equality
+temp=1
+if [ 1 == $temp ]
+then
+    echo Done1
+else
+    echo Wrong!
+fi
+
+echo second
+
+if [ 1 = $temp ]
+then
+    echo Done2
+else
+    echo Wrong!
+fi
+
+echo third
+
+if [ 1 -eq $temp ]
+then
+    echo Done3
+else
+    echo Wrong!
+fi

@@ -1,0 +1,1000 @@
+ 1040  cd Cloud-note-submit/
+ 1041  ls
+ 1042  ssh root@cloudnote.littermonster.net
+ 1043  cd /var/www/html/
+ 1044  ls
+ 1045  ssh root@cloudnote.littermonster.net
+ 1046  ping www.baidu.com
+ 1047  exit
+ 1048  ping baidu.com
+ 1049  ssh root@cloudnote.littermonster.net
+ 1050  ls
+ 1051  cd /
+ 1052  ls
+ 1053  touch sl
+ 1054  ls
+ 1055  cd
+ 1056  ls
+ 1057  cd CloudNote/
+ 1058  ls
+ 1059  ls -hl
+ 1060  git sta
+ 1061  :q
+ 1062  ls
+ 1063  cd..
+ 1064  ls
+ 1065  cd ..
+ 1066  ls
+ 1067  rm CloudNote/ -r
+ 1068  ls
+ 1069  cd gi
+ 1070  cd github/
+ 1071  ls
+ 1072  cd Cloud-note-submit/
+ 1073  ls
+ 1074  git status 
+ 1075  git add ./*
+ 1076  git commit -m "Support to  list the newests notes in the top when you add a new note"
+ 1077  git push https://github.com/Littermonster/Cloud-note-submit
+ 1078  git status 
+ 1079  git log
+ 1080  ls
+ 1081  cd ..
+ 1082  cd
+ 1083  ls
+ 1084  mkdir temp
+ 1085  rm temp/
+ 1086  rm temp/ -r
+ 1087  cd /tmp/
+ 1088  ls
+ 1089  git clone  https://github.com/LitterMonster/xml_project-Cloud-Note.git
+ 1090  ls
+ 1091  ssh root@cloudnote.littermonster.net
+ 1092  exit
+ 1093  cd Documents/
+ 1094  ls
+ 1095  cd C_file/
+ 1096  ls
+ 1097  vi new_c_file 
+ 1098  ./new_c_file 
+ 1099  ./new_c_file strlen
+ 1100  vi strlen.c 
+ 1101  gcc strlen.c -o strlen.out
+ 1102  ./strlen.out 
+ 1103  vi strlen.c 
+ 1104  gcc strlen.c -o strlen.out
+ 1105  vi strlen.
+ 1106  vi strlen.c 
+ 1107  gcc strlen.c -o strlen.out
+ 1108  ./strlen.out 
+ 1109  exit
+ 1110  sudo apt-get update 
+ 1111  cd gu
+ 1112  cd github/
+ 1113  ls
+ 1114  cd Cloud-note-submit/
+ 1115  ls
+ 1116  git status 
+ 1117  git add ./*
+ 1118  git commit -m "fix some bugs in share_mng.php"
+ 1119  git push
+ 1120  git config  --global push.default simple
+ 1121  git push
+ 1122  git log
+ 1123  git status 
+ 1124  git push
+ 1125  ls
+ 1126  git status 
+ 1127  exit
+ 1128  ping www.baidu.com
+ 1129  cd
+ 1130  ls
+ 1131  cd Documents/
+ 1132  ls
+ 1133  cd shell_test/
+ 1134  ls
+ 1135  okular ~/Downloads/Linux_shell/LinuxShell.pdf &
+ 1136  ls
+ 1137  cd bash_shell_important/
+ 1138  ls
+ 1139  git status 
+ 1140  ls
+ 1141  ls sh_[45]
+ 1142  ls sh_??
+ 1143  ls sh_\[45\]
+ 1144  ls sh_??
+ 1145  ls sh_{1,}
+ 1146  ls sh_\{1,}
+ 1147  ls sh_\{1,\}
+ 1148  ls sh_\{1,+\}
+ 1149  ls | grep [12]
+ 1150  ls | grep {1,,4}
+ 1151  ls | grep {1..4}
+ 1152  ls | grep [1-4]
+ 1153  ls | grep sh_[56]
+ 1154  ls | grep sh_[56]?
+ 1155  ls | grep sh_[56][0-9]
+ 1156  ls | grep sh_[5][0-9]
+ 1157  ls | grep sh_[56]1
+ 1158  ls | grep sh_[56][0-9]
+ 1159  ls | grep sh_[56]
+ 1160  ls | grep sh_[56]*
+ 1161  ls | grep sh_[56]
+ 1162  ls | grep sh_
+ 1163  ls | grep sh_[49]
+ 1164  ls | grep sh_[5]
+ 1165  ls | grep sh_[56]
+ 1166  ls | grep sh_[456]
+ 1167  ls
+ 1168  cd ..
+ 1169  ls
+ 1170  ls | grep sh_[56]
+ 1171  ls | grep sh_[5]
+ 1172  ls | grep sh_[5][0-9]
+ 1173  ls | grep sh_[5]\[0-9]
+ 1174  ls | grep sh_[5]\[0-9\]
+ 1175  ls | grep sh_[5]\[0-9]
+ 1176  ls
+ 1177  cd bash_shell_important/
+ 1178  ls
+ 1179  ls sh_[5]
+ 1180  ls sh_\[5\]
+ 1181  ls sh_??
+ 1182  ls sh_..
+ 1183  ls sh_\..
+ 1184  ls sh_\.\.
+ 1185  ls sh_
+ 1186  ls sh
+ 1187  ls sh_*
+ 1188  grep sh_[57]
+ 1189  ls | grep sh_[1-9]
+ 1190  ls | grep sh_[56]
+ 1191  ls ../ | grep sh_[56]\[0-9]
+ 1192  cp `ls ../ | grep sh_[56]\[0-9]` . -v
+ 1193  vi ~/.bashrc 
+ 1194  exit
+ 1195  ls
+ 1196  cp `ls ../ | grep sh_[56]\[0-9\]` . -v
+ 1197  ls
+ 1198  cd ..
+ 1199  ls
+ 1200  `ls ../ | grep sh_[56]\[0-9\]`
+ 1201  ls ../ | grep sh_[56]\[0-9\]
+ 1202  ls ../ | grep sh_[56]
+ 1203  cd bash_shell_important/
+ 1204  cp `ls ../ | grep sh_[56]\[0-9\]` . -v
+ 1205  cp ../`ls ../ | grep sh_[56]\[0-9\]` . -v
+ 1206  ls
+ 1207  cd ..
+ 1208  ls
+ 1209  vi sh_54
+ 1210  cd -
+ 1211  ls
+ 1212  pass= ../`ls ../ | grep sh_[56]\[0-9\]`
+ 1213  ls
+ 1214  echo $pass
+ 1215  vi sh_50 
+ 1216  pass= "../"`ls ../ | grep sh_[56]\[0-9\]`
+ 1217  cp "../"`ls ../ | grep sh_[56]\[0-9\]` . -v
+ 1218  sp ../sh_53 .
+ 1219  cp ../sh_53 .
+ 1220  ls
+ 1221  cp ../sh_5* .
+ 1222  ls
+ 1223  cp ../sh_6* .
+ 1224  ls
+ 1225  git status 
+ 1226  git add ./*
+ 1227  git commit -m "add some other excersies"
+ 1228  git push
+ 1229  git log
+ 1230  git status 
+ 1231  cd ..
+ 1232  ls
+ 1233  vi create_shell
+ 1234  ls
+ 1235  echo `ls bash_shell_important`
+ 1236  echo `ls bash_shell_important -l`
+ 1237  echo `ls bash_shell_important -l` -n
+ 1238  ls
+ 1239  vi state 
+ 1240  rm state 
+ 1241  ls
+ 1242  vi test3out 
+ 1243  rm test*
+ 1244  ls
+ 1245  cd testcount/
+ 1246  cd ..
+ 1247  rm testcount/ -r
+ 1248  vi we
+ 1249  rm we 
+ 1250  rm wrong 
+ 1251  ls
+ 1252  touch 
+ 1253  ./create_shell auto_add_headinfo
+ 1254  grep "^#"
+ 1255  grep "^#" ./*
+ 1256  grep "^#!" ./*
+ 1257  grep "^#!" ./* | grep auto
+ 1258  ls
+ 1259  cd bash_shell_important/
+ 1260  ls
+ 1261  cd ..
+ 1262  ls
+ 1263  grep "^#!" ./* | grep auto
+ 1264  vi auto_add_headinfo 
+ 1265  ls
+ 1266  touch temp
+ 1267  cat >> temp 
+ 1268  vi temp 
+ 1269  cat >> temp << EOF
+ 1270  Hello!
+ 1271  EOF
+ 1272  vi temp 
+ 1273  cat /dev/null  > temp 
+ 1274  cat >> temp << EOF
+ 1275  Hello!
+ 1276  EOF
+ 1277  vi temp 
+ 1278  cat sh_21
+ 1279  exit
+ 1280  ls
+ 1281  where addjb
+ 1282  whereis addjb
+ 1283  addjb huhu
+ 1284  apropos he
+ 1285  whatis ha
+ 1286  whatis ls
+ 1287  which ls
+ 1288  ls
+ 1289  cd /usr/bin/
+ 1290  ls
+ 1291  ls | grep add
+ 1292  ls -l add jb
+ 1293  ls -l addjb
+ 1294  ls -l addpart 
+ 1295  chmod go+x addjb  auto_add_headinfo 
+ 1296  sudo chmod go+x addjb  auto_add_headinfo 
+ 1297  ls
+ 1298  exit
+ 1299  ls
+ 1300  cat sh_23
+ 1301  ls
+ 1302  cat /dev/null > temp 
+ 1303  ls
+ 1304  vi temp
+ 1305  cat >> temp << Sign
+ 1306  Hello World
+ 1307  Sign
+ 1308  ls
+ 1309  vi temp 
+ 1310  vi auto_add_headinfo 
+ 1311  ./auto_add_headinfo Test
+ 1312  vi auto_add_headinfo 
+ 1313  ./auto_add_headinfo Test
+ 1314  date --help 
+ 1315  vi auto_add_headinfo 
+ 1316  ./auto_add_headinfo Test
+ 1317  vi Test 
+ 1318  cat /dev/null  Test 
+ 1319  cat /dev/null>  Test 
+ 1320  vi auto_add_headinfo 
+ 1321  ./auto_add_headinfo Test
+ 1322  vi Test 
+ 1323  rm Test 
+ 1324  vi auto_add_headinfo 
+ 1325  ./auto_add_headinfo Test
+ 1326  vi Test 
+ 1327  vi create_shell
+ 1328  vi create_shell_v2
+ 1329  ./create_shell create_shell_v2
+ 1330  ls
+ 1331  vi create_shell_v2 Version_2
+ 1332  ls
+ 1333  ./create_shell_v2 Version_2
+ 1334  rm Version_2 
+ 1335  ./create_shell_v2 Version1 version2 version3
+ 1336  ls
+ 1337  rm version
+ 1338  rm version*
+ 1339  rm Version1 
+ 1340  ls
+ 1341  vi create_shell_v2 
+ 1342  vi auto_add_headinfo 
+ 1343  ls
+ 1344  ls -l temp 
+ 1345  chmod +x temp 
+ 1346  ls -l temp 
+ 1347  chmod 664
+ 1348  chmod 664 temp 
+ 1349  ls
+ 1350  vim +5 temp 
+ 1351  ls -l temp 
+ 1352  vim temp 
+ 1353  vim +5 temp 
+ 1354  ls
+ 1355  vi temp 
+ 1356  sh temp
+ 1357  ls
+ 1358  vi auto_add_headinfo 
+ 1359  mv create_shell_v2 addjb
+ 1360  ./addjb jb1
+ 1361  vi addjb 
+ 1362  rm addjb 
+ 1363  vi addjb 
+ 1364  ls
+ 1365  vi create_shell
+ 1366  ls
+ 1367  chmod u+x addjb 
+ 1368  vi addjb 
+ 1369  ./addjb jb1
+ 1370  vi jb1 
+ 1371  vi addjb 
+ 1372  ./addjb jb2
+ 1373  vi addjb 
+ 1374  rm jb1 jb2
+ 1375  ./addjb jb1
+ 1376  rm jb1 
+ 1377  echo $PATH
+ 1378  cp addjb auto_add_headinfo  /usr/bin/ -v
+ 1379  sudo cp addjb auto_add_headinfo  /usr/bin/ -v
+ 1380  exit
+ 1381  ls
+ 1382  cd
+ 1383  ls
+ 1384  cd Documents/shell_test/
+ 1385  ls
+ 1386  vi huh
+ 1387  addjb  huh
+ 1388  vi huh 
+ 1389  exit
+ 1390  cd 
+ 1391  cd Documents/shell_test/
+ 1392  ls
+ 1393  addjb ll
+ 1394  vi l
+ 1395  vi ll
+ 1396  cd /usr/bin/
+ 1397  ls
+ 1398  vi addjb 
+ 1399  exit
+ 1400  addjb huhu
+ 1401  vi huhu 
+ 1402  hostname
+ 1403  cd -
+ 1404  cd /usr/bin/
+ 1405  ls -l
+ 1406  ls
+ 1407  cd -
+ 1408  ls
+ 1409  vi addjb 
+ 1410  cd /usr/bin/
+ 1411  vi addjb 
+ 1412  sudo vi auto_add_headinfo 
+ 1413  cd
+ 1414  cd Documents/shell_test/
+ 1415  ls
+ 1416  rm huhu 
+ 1417  ls
+ 1418  addjb huhu
+ 1419  vi huhu 
+ 1420  `hostname`
+ 1421  hostname
+ 1422  rm huhu
+ 1423  addjb  zhang
+ 1424  vi zhang 
+ 1425  cd /usr/bin/
+ 1426  vi auto_add_headinfo 
+ 1427  hostname
+ 1428  vi auto_add_headinfo 
+ 1429  sudo vi auto_add_headinfo 
+ 1430  hostname
+ 1431  sudo vi auto_add_headinfo 
+ 1432  exit
+ 1433  ls
+ 1434  exit
+ 1435  cd
+ 1436  ls
+ 1437  rm right 
+ 1438  addjb wrong
+ 1439  vi wrong 
+ 1440  cd /usr/bin/
+ 1441  vi addjb 
+ 1442  sudo vi addjb 
+ 1443  cd
+ 1444  addjb  fd
+ 1445  exit
+ 1446  addjb haha
+ 1447  cd /usr/bin/
+ 1448  vi auto_add_headinfo 
+ 1449  vi addjb 
+ 1450  ls
+ 1451  sudo vi addjb 
+ 1452  exi
+ 1453  cd
+ 1454  ls
+ 1455  addjb huhu
+ 1456  cd /usr/bin/
+ 1457  ls -l auto_add_headinfo 
+ 1458  vi addjb 
+ 1459  ls
+ 1460  vi addjb 
+ 1461  sudo vi addjb 
+ 1462  cd
+ 1463  addjb huhu
+ 1464  vi huhu 
+ 1465  ls
+ 1466  cd Documents/shell_test/
+ 1467  ls
+ 1468  ll
+ 1469  sh_66
+ 1470  cd
+ 1471  rm huhu
+ 1472  ls
+ 1473  addjb right
+ 1474  addjb right 
+ 1475  vi right 
+ 1476  addjb  right 
+ 1477  vi right 
+ 1478  cd /usr/bin/
+ 1479  ls
+ 1480  sudo vi addjb 
+ 1481  sudo mv auto_add_headinfo ~
+ 1482  ls
+ 1483  cd
+ 1484  ls
+ 1485  addjb right
+ 1486  ls -l
+ 1487  sudo mv auto_add_headinfo /root/
+ 1488  addjb right
+ 1489  ls
+ 1490  cd /root/
+ 1491  sudo cd /root/
+ 1492  ls
+ 1493  cd
+ 1494  su
+ 1495  ls
+ 1496  addjb lll
+ 1497  exit
+ 1498  addjb  er
+ 1499  sudo mv auto_add_headinfo /usr/bin/ -v
+ 1500  cd /usr/biin
+ 1501  cd /usr/bin/
+ 1502  ls
+ 1503  vi addjb 
+ 1504  sudo vi addjb 
+ 1505  cd
+ 1506  ls
+ 1507  add right
+ 1508  addjb right
+ 1509  vi right 
+ 1510  sudo vi /usr/bin/addjb 
+ 1511  sudo vi /usr/bin/auto_add_headinfo 
+ 1512  add hu
+ 1513  addjb  hu
+ 1514  vi hu 
+ 1515  ls
+ 1516  rm hu right wrong 
+ 1517  exit
+ 1518  cd Documents/shell_test/
+ 1519  ls
+ 1520  vi at_command 
+ 1521  exit
+ 1522  cd Documents/shell_test/
+ 1523  cd bash_shell_important/
+ 1524  git status 
+ 1525  git add ./*
+ 1526  git commit  -m "add automatically create bash scripts addjb and auto_add_headinfo"
+ 1527  git push
+ 1528  git log
+ 1529  exit
+ 1530  halt 
+ 1531  sudo halt 
+ 1532  ssh root@cloudnote.littermosnter.net
+ 1533  ssh root@cloudnote.littermonster.net
+ 1534  ls
+ 1535  mkdir logs
+ 1536  ls
+ 1537  ls -l
+ 1538  ls -l logs
+ 1539  ls l | grep logs
+ 1540  ls -l  | grep logs
+ 1541  chmod o+w logs
+ 1542  ls
+ 1543  cd logs/
+ 1544  s
+ 1545  ls
+ 1546  ls -l
+ 1547  ls
+ 1548  cd ..
+ 1549  ls -l
+ 1550  ls
+ 1551  cd logs/
+ 1552  ls
+ 1553  vi 2015-12-30log 
+ 1554  cd ..
+ 1555  vi login.php 
+ 1556  cd logs/
+ 1557  rm 2015-12-30log 
+ 1558  ls
+ 1559  cd ..
+ 1560  ls
+ 1561  cd logs/
+ 1562  ls
+ 1563  cd ..
+ 1564  ls
+ 1565  cd logs/
+ 1566  ls
+ 1567  vi 2015-12-30.log 
+ 1568  rm 2015-12-30.log 
+ 1569  ls
+ 1570  vi 2015-12-30.log 
+ 1571  cd ..
+ 1572  vi cloud_note_db 
+ 1573  cd logs/
+ 1574  ls
+ 1575  vi 2015-12-30.log 
+ 1576  ls
+ 1577  cd ..
+ 1578  ls
+ 1579  vi login.php 
+ 1580  cd logs/
+ 1581  vi 2015-12-30.log 
+ 1582  ls
+ 1583  cd ..
+ 1584  ls
+ 1585  vi process.php 
+ 1586  ls
+ 1587  vi logs/2015-12-30.log 
+ 1588  cd
+ 1589  cd github/Cloud-note-submit/
+ 1590  ls
+ 1591  git status 
+ 1592  git add ./
+ 1593  git commit -m "Support to add logs when user logins and logouts"
+ 1594  git push
+ 1595  git status 
+ 1596  git log
+ 1597  ls
+ 1598  pwd
+ 1599  cd ..
+ 1600  ls
+ 1601  cd -
+ 1602  ls
+ 1603  ssh root@cloudnote.littermonster.net
+ 1604  exit
+ 1605  vi /var/log/apache2/error.log
+ 1606  exit
+ 1607  cd Cloud-note-submit/
+ 1608  ls
+ 1609  vi login.php 
+ 1610  exit
+ 1611  cd /var/www/html/
+ 1612  ls
+ 1613  vi time.php
+ 1614  ssh root@cloudnote.littermonster.net
+ 1615  cd Documents/shell_test/
+ 1616  man let
+ 1617  addjb judge_max
+ 1618  vi judge_max 
+ 1619  ./judge_max 
+ 1620  vi judge_max 
+ 1621  addjb  sum_between100
+ 1622  ls
+ 1623  vi sum_between100 
+ 1624  ./sum_between100 
+ 1625  vi sum_between100 
+ 1626  ./sum_between100 
+ 1627  vi sum_between100 
+ 1628  ./sum_between100 
+ 1629  vi sum_between100 
+ 1630  ./sum_between100 
+ 1631  vi sum_between100 
+ 1632  ls
+ 1633  vi judge_max 
+ 1634  vi sum_between100 
+ 1635  ./sum_between100 
+ 1636  vi sum_between100 
+ 1637  ./sum_between100 
+ 1638  vi sum_between100 
+ 1639  ./sum_between100 
+ 1640  vi sum_between100 
+ 1641  ./sum_between100 
+ 1642  vi sum_between100 
+ 1643  ./sum_between100 
+ 1644  vi sum_between100 
+ 1645  ./sum_between100 
+ 1646  ls
+ 1647  git status 
+ 1648  cp sum_between100 judge_max bash_shell_important/
+ 1649  vi huh 
+ 1650  rm huh 
+ 1651  ls
+ 1652  cd bash_shell_important/
+ 1653  ls
+ 1654  git status 
+ 1655  git add ./*
+ 1656  git commit -m "add judge_max and sum_between100 "
+ 1657  git push
+ 1658  git config 
+ 1659  git config --global user.name littermonster
+ 1660  git config --global user.email zhangtao1906@163.com
+ 1661  ls
+ 1662  addjb test_git
+ 1663  git status 
+ 1664  git add
+ 1665  git add ./*
+ 1666  git commit -m "I just want to test git user.name"
+ 1667  git push
+ 1668  git log
+ 1669  cd 
+ 1670  ls
+ 1671  mkdir testgit
+ 1672  cd testgit/
+ 1673  ls
+ 1674  git clone https://github.com/LitterMonster/bash_shell_important.git
+ 1675  ls
+ 1676  cd bash_shell_important/
+ 1677  s
+ 1678  ls
+ 1679  rm test_git 
+ 1680  git status 
+ 1681  git rm test_git 
+ 1682  git add ./*
+ 1683  git commit -m "Just to remove test_git "
+ 1684  git push
+ 1685  ls
+ 1686  sudo apt-get remove git
+ 1687  sudo apt-get install git
+ 1688  ls
+ 1689  git log
+ 1690  git info
+ 1691  git status 
+ 1692  s
+ 1693  ls
+ 1694  cd ..
+ 1695  rm bash_shell_important/ -r
+ 1696  rm bash_shell_important/ -rf
+ 1697  ls
+ 1698  cd ..
+ 1699  rm testgit/ -r
+ 1700  ls
+ 1701  exit
+ 1702  ping www.baidu.com
+ 1703  exit
+ 1704  ls
+ 1705  add 5
+ 1706  add 0956
+ 1707  add 956
+ 1708  addjb test2
+ 1709  vi test2
+ 1710  ./test2
+ 1711  add 9
+ 1712  vi test1
+ 1713  ls
+ 1714  vi test2
+ 1715  ./test2
+ 1716  vi test1
+ 1717  vi test2
+ 1718  ./test2
+ 1719  add 5
+ 1720  vi test2
+ 1721  ./test2
+ 1722  vi test2
+ 1723  ./test2
+ 1724  echo $?
+ 1725  vi test2
+ 1726  ls
+ 1727  vi ~/.bashrc 
+ 1728  ls -l 
+ 1729  ls -l | grep bash
+ 1730  ls -al | grep bash
+ 1731  cd
+ 1732  ls -al | grep bash
+ 1733  vi .bashrc 
+ 1734  ls
+ 1735  vi Documents/shell_test/test2
+ 1736  /home/zhangtao/Documents/shell_test/test2
+ 1737  ./Documents/shell_test/test2
+ 1738  addjb test
+ 1739  vi test 
+ 1740  test
+ 1741  ls
+ 1742  test
+ 1743  man test
+ 1744  ~/test
+ 1745  ls
+ 1746  rm test 
+ 1747  ls
+ 1748  add 9
+ 1749  vi .bashrc 
+ 1750  exit
+ 1751  add  8
+ 1752  cd
+ 1753  add 3
+ 1754  addnum 4
+ 1755  cd -
+ 1756  ls
+ 1757  vi test2
+ 1758  ./test2
+ 1759  vi test2
+ 1760  ./test2
+ 1761  vi test2
+ 1762  ./test2
+ 1763  vi test2
+ 1764  ./test2
+ 1765  vi test2
+ 1766  ./test2
+ 1767  vi test2
+ 1768  addnum  4
+ 1769  addnum 35
+ 1770  addnum 352342345235
+ 1771  addnum 35234234523534112534
+ 1772  addnum 3523423452353411253442354135245
+ 1773  addnum 352342345235341125344235413524532513413
+ 1774  addnum 3523423452353411253442354135245325134133454
+ 1775  ls
+ 1776  vi test2
+ 1777  addnum 342
+ 1778  vi ~/.bashrc 
+ 1779  exit
+ 1780  ls
+ 1781  cd tt.EfgPRB/
+ 1782  ls
+ 1783  cd ..
+ 1784  ls
+ 1785  cd /var/www/html/
+ 1786  ls
+ 1787  cd XML_Homework
+ 1788  ls
+ 1789  cd XML_Homework2/
+ 1790  ls
+ 1791  vi delete.php 
+ 1792  cd ..
+ 1793  ls
+ 1794  python
+ 1795  ls
+ 1796  cd
+ 1797  '
+ 1798  ;
+ 1799  ;
+ 1800  ls
+ 1801  cd Documents/
+ 1802  ls
+ 1803  cd shell_test/
+ 1804  ls
+ 1805  addjb test_cat
+ 1806  vi te
+ 1807  vi test_cat 
+ 1808  ls
+ 1809  ./test_cat tao
+ 1810  vi test_cat 
+ 1811  ./test_cat tao
+ 1812  ls
+ 1813  vi t
+ 1814  vi tao 
+ 1815  rm tao
+ 1816  vi test_cat 
+ 1817  ./test_cat tao
+ 1818  vi test_cat 
+ 1819  ./test_cat to_you
+ 1820  vi test_cat 
+ 1821  ./test_cat to_you
+ 1822  vi to_you 
+ 1823  rm to_you 
+ 1824  ls
+ 1825  function doubleit{} read -p "Enter value:" value;
+ 1826  function doubleit{} read -p "Enter value:" value
+ 1827  function doubleit{ read -p "Enter value:" value
+ 1828  function doubleit { read -p "Entet value:" value; echo $[$value * 2]; }
+ 1829  doubleit 
+ 1830  function double{read -p "Enter value:" value; echo $[$value*3];}
+ 1831  cd
+ 1832  cat .bash
+ 1833  cat .bashrc 
+ 1834  cd Documents/shell_test/
+ 1835  addjb test_source
+ 1836  vi test_source 
+ 1837  ls | grep test
+ 1838  addjb test
+ 1839  vi test
+ 1840  ls
+ 1841  vi test_source 
+ 1842  ./test_source 
+ 1843  mv test test1
+ 1844  vi test_source 
+ 1845  ./test_source 
+ 1846  vi test_source 
+ 1847  ./test_source 
+ 1848  ./test1
+ 1849  vi test1
+ 1850  add 4
+ 1851  . ./test1
+ 1852  add 3
+ 1853  vi test1
+ 1854  vi test_source 
+ 1855  ./test_source 
+ 1856  vi test_source 
+ 1857  ./test_source 
+ 1858  vi test_source 
+ 1859  ./test_source 
+ 1860  ls
+ 1861  vi ~/.bashrc 
+ 1862  add 3
+ 1863  exit
+ 1864  add 3
+ 1865  exit
+ 1866  ls
+ 1867  cd Downloads/sh
+ 1868  cd Downloads/
+ 1869  ls
+ 1870  cd Linux_s
+ 1871  cd Linux_shell/
+ 1872  ls
+ 1873  okular LinuxShell.pdf &
+ 1874  ssh root@cloudnote.littermonster.net
+ 1875  sudo apt-get update
+ 1876  mysql -p
+ 1877  msyql -p
+ 1878  12345678
+ 1879  cd
+ 1880  mysql -u root -p12345678
+ 1881  mysql cloud_note_db -u root -p
+ 1882  sudo apt-get install dia
+ 1883  sudo apt-get install postgresql
+ 1884  sudo -u postgres psql 
+ 1885  ls
+ 1886  mysql -u root -p12345678
+ 1887  mysql test -u test -p
+ 1888  mysql test -u root -p
+ 1889  ls
+ 1890  cd /var/www/html/
+ 1891  ls
+ 1892  cd suoluetu/
+ 1893  ls
+ 1894  cd ..
+ 1895  rm suoluetu/ -r
+ 1896  ls
+ 1897  cd images/
+ 1898  ls
+ 1899  cd ..
+ 1900  rm images/ -r 
+ 1901  sls
+ 1902  ls
+ 1903  cd data/
+ 1904  ls
+ 1905  cd ..
+ 1906  rm data/ -r
+ 1907  ls
+ 1908  cd DB_Browser/
+ 1909  ls
+ 1910  cd ..
+ 1911  ls
+ 1912  cd de
+ 1913  ls
+ 1914  cd demo/
+ 1915  ls
+ 1916  cd images/
+ 1917  ls
+ 1918  cd ..
+ 1919  ls
+ 1920  cd ..
+ 1921  ls
+ 1922  cd session/
+ 1923  ls
+ 1924  rm ../session/ -r
+ 1925  ls
+ 1926  cd ..
+ 1927  ls
+ 1928  cd stylesheets/
+ 1929  ls
+ 1930  cd ..
+ 1931  rm stylesheets/ -r
+ 1932  ls
+ 1933  cd templates/
+ 1934  ;s
+ 1935  ls
+ 1936  cd ..
+ 1937  rm templates/ -r
+ 1938  ls
+ 1939  cd dev-templates/
+ 1940  ls
+ 1941  cd ..
+ 1942  rm dev-templates/ -r
+ 1943  ls
+ 1944  cd mainsite-submit/
+ 1945  ls
+ 1946  cd ..
+ 1947  ls
+ 1948  mkdir tangli_bluehill
+ 1949  cd tangli_bluehill/
+ 1950  ls
+ 1951  git clone  https://github.com/LitterMonster/bluehill-1.git
+ 1952  ls
+ 1953  cd bluehill-1/
+ 1954  ls
+ 1955  vi README.md 
+ 1956  ls
+ 1957  vi index.html 
+ 1958  ls
+ 1959  vi index.php 
+ 1960  ls
+ 1961  vi index.html 
+ 1962  ls
+ 1963  vi main.php 
+ 1964  ls
+ 1965  cd ThinkPHP/
+ 1966  ls
+ 1967  cd ..
+ 1968  cd -
+ 1969  vi ThinkPHP.php 
+ 1970  exit
+ 1971  list
+ 1972  man list
+ 1973  list
+ 1974  du -h .
+ 1975  du -h /
+ 1976  df -h .
+ 1977  du -h .
+ 1978  ls
+ 1979  mysql -u root -p
+ 1980  mysql bluehill_db -u root -p
+ 1981  exit
+ 1982  clear
+ 1983  ;s
+ 1984  cd Docw
+ 1985  firefox &
+ 1986  ls
+ 1987  exit
+ 1988  mysql -u root -p
+ 1989  mysql -u test -p
+ 1990  mysql test -u root -p
+ 1991  cd ~/Documents/shell_test/
+ 1992  ls
+ 1993  apropos mysql
+ 1994  man which
+ 1995  which mysql
+ 1996  which psql
+ 1997  addjb connect_db
+ 1998  vi connect_db 
+ 1999  ./connect_db 
+ 2000  mysql test -u test -p
+ 2001  vi connect_db 
+ 2002  ./connect_db 
+ 2003  vi connect_db 
+ 2004  cd
+ 2005  cat .mysql_history 
+ 2006  vi .mysql_history 
+ 2007  touch .my.cnf
+ 2008  vi .my.cnf 
+ 2009  ls -a | grep my
+ 2010  ls -al | grep my
+ 2011  chmod 400 .my.cnf 
+ 2012  ls
+ 2013  cd -
+ 2014  ./connect_db 
+ 2015  vi ~/.my.cnf 
+ 2016  chmod 777 ~/.my.cnf 
+ 2017  vi ~/.my.cnf 
+ 2018  chmod 400 ~/.my.cnf 
+ 2019  ./connect_db 
+ 2020  vi connect_db 
+ 2021  ./co
+ 2022  ./connect_db 
+ 2023  addjb mtest2
+ 2024  vi mtest2 
+ 2025  ./mtest2 
+ 2026  vi mtest2 
+ 2027  ./mtest2 
+ 2028  vi mtest2 
+ 2029  ./mtest2 
+ 2030  addjb ptest2
+ 2031  vi ptest2 
+ 2032  ./ptest2 
+ 2033  psql root
+ 2034  psql sudo -u postgres 
+ 2035  psql sudo -u postgres -p
+ 2036  psql sudo -u postgres -p psql
+ 2037  psql sudo -u postgres psql
+ 2038  history 
+ 2039  history > histtory

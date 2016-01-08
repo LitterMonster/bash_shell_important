@@ -1,0 +1,36 @@
+#!/bin/bash
+# count directories lines
+
+function countdir(){
+    count=$2
+    for file in $1
+    do
+        if [ -d "$file" ]
+        then
+            temp=`countdir $file $count`
+            count=$[$temp+$count]
+        elif [ -f "$file" ]
+        then
+            temp=`wc -l $file`
+            count=$[$temp+$count]
+        fi
+    done
+    return $count
+}
+count=0
+temp=0
+for file in "$@"
+do
+    if [ -d "$file" ]
+    then
+        temp=`countdir $file $lines`
+        count=$[$count+$temp]
+    elif [ -f "$file" ]
+    then
+        temp=`wc "$file" -l`
+        count=`expr $count + $temp`
+    fi
+done
+echo "All lines is $count"
+
+        

@@ -1,0 +1,12 @@
+#!/bin/bash
+#Author:zhangtao
+#Date & Time: 2015-12-31-20:19:12
+#Description:this script is to test cat 
+if [ $# -gt 0 ]
+then
+    cat >> $1 << EOF
+    　　亲，祝你在新的一年里，心想事成，万事如意。
+    但愿你没有工作的
+    太多的劳累，没有生活中太多的烦心事。每天都快乐相伴。
+EOF
+fi

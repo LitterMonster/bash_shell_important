@@ -1,0 +1,6 @@
+#!/bin/bash
+#Author:zhangtao
+#Date & Time: 2015-12-31-21:38:35
+#Description:just want to test add function and add in .bashr
+. ~/.bashrc
+addnum 39

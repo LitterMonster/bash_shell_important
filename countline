@@ -1,0 +1,31 @@
+#!/bin/bash
+# count all lines in any director through recursion
+
+function countdir
+{
+    local count=$2
+    for file in `ls -R $1`
+    do
+        if [ -d $file ]
+        then
+            count=$[$count + `countdir $file $count`]
+        elif [ -f $file ]
+        then
+            count=$[$count + `wc -l < $file`]
+        fi
+    done
+    echo $count
+}
+
+count=0
+for file in $*
+do
+    if [ -d $file ]
+    then
+        count=`countdir $file $count`
+    elif [ -f $file ]
+    then
+        count=$[$count + `wc -l < $file`]
+    fi
+done
+echo "The count is $count"

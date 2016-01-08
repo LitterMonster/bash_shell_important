@@ -1,0 +1,8 @@
+#!/bin/bash
+#Author:zhangtao
+#Date & Time: 2015-12-31-21:28:17
+#Description:This is a test script
+function add()
+{
+    echo $[$1*2]
+}

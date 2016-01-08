@@ -1,4 +1,5 @@
 #!/bin/bash
+#!/bin/bash
 # create bash shell automatically
 # In this file, I want to create bash shell automatically
 # and it is executable, but I encounted a few questions:
@@ -6,26 +7,18 @@
 #    1.( for file in $* ) and (for file in "$@") and (for file in $@) 
 #    are all useful. I could not use (for file in "$*"), because 
 #    the '$*' is a string not the parameter array! 
-for file in "$@"
+read -p "Input sum:" sum
+
+for((count=1;count<$sum;count++))
 do
-    if [ ! -e $file ]
+    if [ ! -e file$count ]
     then
-        touch $file
-        chmod u+x $file
-        echo "#!/bin/bash" >> $file
-        echo "# " >> $file
-        echo "create success"
+        touch file$count
+        chmod u+x file$count
+        echo "#!/bin/bash" >> file$count
+        echo "# " >> file$count
     else
-        echo "$file has existed!"
+        echo "file$count has existed!"
     fi
 done
-if [ $# \> 1 ]
-then
-    echo "$# shell scripts are created!"
-elif [ $# = 1 ]
-then
-    echo "$# shell script is created!"
-else
-    echo "No shell script is created!"
-fi
-vi $1
+echo "$count files have been created!"

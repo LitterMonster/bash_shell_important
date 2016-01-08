@@ -1,0 +1,13 @@
+#!/bin/bash
+# testing $*, "$*", $@, "$@" difference
+#for i in "$*"
+#do
+#    echo $i >> file$i
+#done
+#
+list="$*"
+for i in $list
+do
+    echo $i >> file$i
+done
+

@@ -1,0 +1,12 @@
+#!/bin/bash
+#Author:zhangtao
+#Date & Time: 2016-01-01-22:30:31
+#Description:sending multiple commands to PostgreSQL
+
+PSQL=`which psql`
+
+$PSQL test << EOF
+\dt
+select * from employees;
+EOF
+

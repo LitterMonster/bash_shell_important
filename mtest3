@@ -1,0 +1,10 @@
+#!/bin/bash
+#Author:zhangtao
+#Date & Time: 2016-01-01-22:25:12
+#Description: sending multiple commands to MySQL
+
+MYSQL=`which mysql`
+$MYSQL test -u root << EOF
+show tables;
+select * from employees;
+EOF
