@@ -1,0 +1,62 @@
+#!/bin/bash
+#Author:Zhangtao
+#Date & Time: 2016-01-14-00:49:22
+#Description:This iscript is to display a menu layout
+
+function diskspace()
+{
+    clear
+    df -kh
+}
+
+function whoseon()
+{
+    clear
+    who
+}
+
+function memusage()
+{
+    clear
+    cat /proc/meminfo
+}
+
+function menu()
+{
+    clear
+    echo
+    echo -e "\t\t\tSys Admin Menu"
+    echo -e "\t\t1. Display disk space"
+    echo -e "\t\t2. Display logged on users"
+    echo -e "\t\t3. Display memory usage"
+    echo -e "\t\t0. Exit menu\n\n"
+    echo -en "\t\tEnter option:"
+
+    read -n 1 option
+}
+
+while test 0
+do
+    menu
+    case $option in 
+        0)
+            break
+            ;;
+        1)
+            diskspace
+            ;;
+        2)
+            whoseon
+            ;;
+        3)
+            memusage
+            ;;
+        *)
+            clear
+            echo "Sorry. wrong selection"
+            ;;
+    esac
+    echo -en "\n\t\t\t\tHit any key to continue"
+    read -n 1 line
+done
+clear

@@ -1,0 +1,52 @@
+#!/bin/bash
+#Author:Zhangtao
+#Date & Time: 2016-01-14-01:24:19
+#Description:This iscript is to display a menu layout with another method select
+
+function diskspace()
+{
+    clear
+    df -kh
+}
+
+function whoseon()
+{
+    clear
+    who
+}
+
+function memusage()
+{
+    clear
+    cat /proc/meminfo
+}
+
+while [ 1 ]
+do
+    PS3="Enter option: "
+    select option in "Display disk space" "Display logged on users" \
+        "Display memory usage" "Exit program"
+    do
+        case $option in 
+            "Exit program")
+                break
+                ;;
+            "Display disk space")
+                diskspace
+                ;;
+            "Display logged on users")
+                whoseon
+                ;;
+            "Display memory usage")
+                memusage
+                ;;
+            *)
+                clear
+                echo "Sorry. wrong selection"
+                ;;
+        esac
+    done
+    echo -en "\n\t\t\t\tHit any key to continue"
+    read -n 1 line
+done
+clear
