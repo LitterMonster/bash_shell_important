@@ -1,0 +1,11 @@
+#!/bin/bash
+if ! grep "^#!" $1 &> /dev/null
+then
+cat >> $1 << EOF
+#!/usr/bin/perl
+#Author:Zhangtao
+#Date & Time: `date +%F-%T`
+#Description:
+EOF
+fi
+chmod u+x $1
