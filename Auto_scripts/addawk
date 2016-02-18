@@ -2,6 +2,7 @@
 #Author:Zhangtao
 #Date & Time: 2016-02-18-22:46:13
 #Description: Automatically generate awk script
+#e.g ./addawk awk1 => awk1.awk
 
 for i in $*
 do
