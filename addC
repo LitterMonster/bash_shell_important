@@ -1,0 +1,24 @@
+#!/bin/bash
+#Author:Zhangtao
+#Date & Time: 2016-02-25-13:30:52
+#Description:Automatically add C head information and comments
+count=0
+for file in "$*"
+do
+    if [ -e $file ]
+    then
+        echo "$file has existed!"
+    else
+        touch ${file}.c
+        cat >> ${file}.c << EOF
+/*
+ * Author:`hostname`
+ * Date & Time:`date '+%x %X'`
+ * Description:
+ * */
+EOF
+echo "$file was created!"
+count=$[ $count + 1 ]
+fi
+done
+echo "$count file were created!"
