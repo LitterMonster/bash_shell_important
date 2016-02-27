@@ -3,14 +3,16 @@
 #Date & Time: 2016-02-25-13:30:52
 #Description:Automatically add C head information and comments
 count=0
-for file in "$*"
+for file in $*
 do
-    if [ -e $file ]
-    then
-        echo "$file has existed!"
-    else
-        touch ${file}.c
-        cat >> ${file}.c << EOF
+file=${file}.c
+if [ ! -z "$file" ]; then
+if [ -e "$file" ]
+then
+echo "$file has existed!"
+else
+touch "$file"
+cat >> "$file" << EOF
 /*
  * Author:`hostname`
  * Date & Time:`date '+%x %X'`
@@ -20,5 +22,9 @@ EOF
 echo "$file was created!"
 count=$[ $count + 1 ]
 fi
+fi
 done
+if [ $count -gt 1 ]
+then
 echo "$count file were created!"
+fi
